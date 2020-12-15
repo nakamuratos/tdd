@@ -18,6 +18,7 @@ public class CalculatorTest {
 
 	@Test
 	public void 累乗する() {
+		// 10の2乗は100である
 		assertEquals(100, calculator.power(10, 2));
 	}
 }
