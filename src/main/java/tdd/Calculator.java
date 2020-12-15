@@ -6,4 +6,8 @@ public class Calculator {
 	public int power(int a, int b) {
 		return 100;
 	}
+
+	public int add(int a, int b) {
+		return a + b;
+	}
 }
