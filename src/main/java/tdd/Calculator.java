@@ -1,8 +1,8 @@
 package tdd;
 
-// ŒvZ‹@
+// è¨ˆç®—æ©Ÿ
 public class Calculator {
-	// —İæ‚·‚é
+	// ç´¯ä¹—ã™ã‚‹
 	public int power(int a, int b) {
 		return 0;
 	}

@@ -4,20 +4,20 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-// ¡i‚ß•û
-//   1. ƒŒƒbƒhiƒeƒXƒg¸”sj
-//   2. ƒOƒŠ[ƒ“iƒeƒXƒg¬Œ÷j
-//   3. ƒŠƒtƒ@ƒNƒ^ƒŠƒ“ƒO
+// â– é€²ã‚æ–¹
+//   1. ãƒ¬ãƒƒãƒ‰ï¼ˆå¤±æ•—ï¼‰
+//   2. ã‚°ãƒªãƒ¼ãƒ³ï¼ˆæˆåŠŸï¼‰
+//   3. ãƒªãƒ•ã‚¡ã‚¯ã‚¿ãƒªãƒ³ã‚°ï¼ˆä¿®æ­£ï¼‰
 //
-// ¡ƒ‹[ƒ‹
-//   1.¸”s‚·‚éƒeƒXƒg‚ğ‚Ğ‚Æ‚Â‘‚­‚Ü‚Å‚ÍAV‚µ‚¢ƒR[ƒh‚ğˆêØ‘‚©‚È‚¢
-//   2.uŠë‚È‚Á‚©‚µ‚¢Šv‚ğ‚·‚×‚ÄƒeƒXƒg‚·‚é
+// â– ãƒ«ãƒ¼ãƒ«
+//   1. å¤±æ•—ã™ã‚‹ãƒ†ã‚¹ãƒˆã‚’1ã¤æ›¸ãã¾ã§ã¯ã€æ–°ã—ã„ã‚³ãƒ¼ãƒ‰ã‚’ä¸€åˆ‡æ›¸ã‹ãªã„
+//   2. ã€Œå±ãªã£ã‹ã—ã„æ‰€ã€ã‚’ã™ã¹ã¦ãƒ†ã‚¹ãƒˆã™ã‚‹
 public class CalculatorTest {
 
 	private Calculator calculator = new Calculator();
 
 	@Test
-	public void —İæ‚·‚é() {
+	public void ç´¯ä¹—ã™ã‚‹() {
 		assertEquals(100, calculator.power(10, 2));
 	}
 }
