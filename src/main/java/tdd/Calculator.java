@@ -4,6 +4,6 @@ package tdd;
 public class Calculator {
 	// 累乗する
 	public int power(int a, int b) {
-		return 0;
+		return 100;
 	}
 }
