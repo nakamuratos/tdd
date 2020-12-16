@@ -18,6 +18,8 @@ public class CalculatorTest {
 
 	@Test
 	public void 累乗する() {
+		// 10の0乗は1である
+		assertEquals(1, calculator.power(10, 0));
 		// 10の2乗は100である
 		assertEquals(100, calculator.power(10, 2));
 	}
